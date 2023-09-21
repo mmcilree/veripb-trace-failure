@@ -1,0 +1,746 @@
+pseudo-Boolean proof version 2.0
+f 541 0
+u 1 ~iv0_eq_0 >= 1 ;
+u 1 ~iv0_eq_4 >= 1 ;
+u 1 ~iv0_eq_5 >= 1 ;
+u 1 ~iv0_eq_6 >= 1 ;
+u 1 ~iv0_eq_7 >= 1 ;
+u 1 ~iv1_eq_0 >= 1 ;
+u 1 ~iv1_eq_1 >= 1 ;
+u 1 ~iv1_eq_4 >= 1 ;
+u 1 ~iv1_eq_5 >= 1 ;
+u 1 ~iv1_eq_6 >= 1 ;
+u 1 ~iv1_eq_7 >= 1 ;
+u 1 ~iv2_eq_0 >= 1 ;
+u 1 ~iv2_eq_2 >= 1 ;
+u 1 ~iv2_eq_4 >= 1 ;
+u 1 ~iv2_eq_5 >= 1 ;
+u 1 ~iv2_eq_6 >= 1 ;
+u 1 ~iv2_eq_7 >= 1 ;
+u 1 ~iv3_eq_0 >= 1 ;
+u 1 ~iv3_eq_3 >= 1 ;
+u 1 ~iv3_eq_4 >= 1 ;
+u 1 ~iv3_eq_5 >= 1 ;
+u 1 ~iv3_eq_6 >= 1 ;
+u 1 ~iv3_eq_7 >= 1 ;
+u 1 ~iv4_eq_0 >= 1 ;
+u 1 ~iv4_eq_1 >= 1 ;
+u 1 ~iv4_eq_2 >= 1 ;
+u 1 ~iv4_eq_3 >= 1 ;
+u 1 ~iv4_eq_4 >= 1 ;
+u 1 ~iv4_eq_7 >= 1 ;
+u 1 ~iv5_eq_0 >= 1 ;
+u 1 ~iv5_eq_1 >= 1 ;
+u 1 ~iv5_eq_2 >= 1 ;
+u 1 ~iv5_eq_3 >= 1 ;
+u 1 ~iv5_eq_5 >= 1 ;
+u 1 ~iv5_eq_6 >= 1 ;
+u 1 ~iv6_eq_0 >= 1 ;
+u 1 ~iv6_eq_1 >= 1 ;
+u 1 ~iv6_eq_2 >= 1 ;
+u 1 ~iv6_eq_3 >= 1 ;
+u 1 ~iv6_eq_4 >= 1 ;
+u 1 ~iv6_eq_6 >= 1 ;
+u 1 ~iv7_eq_0 >= 1 ;
+u 1 ~iv7_eq_1 >= 1 ;
+u 1 ~iv7_eq_2 >= 1 ;
+u 1 ~iv7_eq_3 >= 1 ;
+u 1 ~iv7_eq_5 >= 1 ;
+u 1 ~iv7_eq_7 >= 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 7 ~flag28_d4ge0 >= 0 ; flag28_d4ge0 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 8 flag28_d4ge0 >= 1 ; flag28_d4ge0 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 8 ~flag29_d4ge1 >= 1 ; flag29_d4ge1 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 7 flag29_d4ge1 >= 0 ; flag29_d4ge1 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 -1 ~flag30_d4gem8 >= -8 ; flag30_d4gem8 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 16 flag30_d4gem8 >= 9 ; flag30_d4gem8 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 0 ~flag31_d4gem7 >= -7 ; flag31_d4gem7 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 15 flag31_d4gem7 >= 8 ; flag31_d4gem7 -> 1 ;
+red 1 flag28_d4ge0 -1 flag29_d4ge1 2 ~flag32_d4eq0 >= 1 ; flag32_d4eq0 -> 0 ;
+red -1 flag28_d4ge0 1 flag29_d4ge1 1 flag32_d4eq0 >= 0 ; flag32_d4eq0 -> 1 ;
+red 1 flag30_d4gem8 -1 flag31_d4gem7 2 ~flag33_d4eqm8 >= 1 ; flag33_d4eqm8 -> 0 ;
+red -1 flag30_d4gem8 1 flag31_d4gem7 1 flag33_d4eqm8 >= 0 ; flag33_d4eqm8 -> 1 ;
+red 1 flag33_d4eqm8 1 flag32_d4eq0 1 ~flag34_q4eq0 >= 1 ; flag34_q4eq0 -> 0 ;
+red -1 flag33_d4eqm8 -1 flag32_d4eq0 2 flag34_q4eq0 >= 0 ; flag34_q4eq0 -> 1 ;
+u 1 flag34_q4eq0 >= 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 8 ~flag35_d5ge1 >= 1 ; flag35_d5ge1 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 7 flag35_d5ge1 >= 0 ; flag35_d5ge1 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 9 ~flag36_d5ge2 >= 2 ; flag36_d5ge2 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 6 flag36_d5ge2 >= -1 ; flag36_d5ge2 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 0 ~flag37_d5gem7 >= -7 ; flag37_d5gem7 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 15 flag37_d5gem7 >= 8 ; flag37_d5gem7 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 ~flag38_d5gem6 >= -6 ; flag38_d5gem6 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 14 flag38_d5gem6 >= 7 ; flag38_d5gem6 -> 1 ;
+red 1 flag35_d5ge1 -1 flag36_d5ge2 2 ~flag39_d5eq1 >= 1 ; flag39_d5eq1 -> 0 ;
+red -1 flag35_d5ge1 1 flag36_d5ge2 1 flag39_d5eq1 >= 0 ; flag39_d5eq1 -> 1 ;
+red 1 flag37_d5gem7 -1 flag38_d5gem6 2 ~flag40_d5eqm7 >= 1 ; flag40_d5eqm7 -> 0 ;
+red -1 flag37_d5gem7 1 flag38_d5gem6 1 flag40_d5eqm7 >= 0 ; flag40_d5eqm7 -> 1 ;
+red 1 flag40_d5eqm7 1 flag39_d5eq1 1 ~flag41_q5eq1 >= 1 ; flag41_q5eq1 -> 0 ;
+red -1 flag40_d5eqm7 -1 flag39_d5eq1 2 flag41_q5eq1 >= 0 ; flag41_q5eq1 -> 1 ;
+p 392 605 + s
+p 391 606 + s
+u 1 flag41_q5eq1 1 ~iv4_eq_5 >= 1 ;
+del range 618 620
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 8 ~flag42_d6ge1 >= 1 ; flag42_d6ge1 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 7 flag42_d6ge1 >= 0 ; flag42_d6ge1 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 9 ~flag43_d6ge2 >= 2 ; flag43_d6ge2 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 6 flag43_d6ge2 >= -1 ; flag43_d6ge2 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 0 ~flag44_d6gem7 >= -7 ; flag44_d6gem7 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 15 flag44_d6gem7 >= 8 ; flag44_d6gem7 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 ~flag45_d6gem6 >= -6 ; flag45_d6gem6 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 14 flag45_d6gem6 >= 7 ; flag45_d6gem6 -> 1 ;
+red 1 flag42_d6ge1 -1 flag43_d6ge2 2 ~flag46_d6eq1 >= 1 ; flag46_d6eq1 -> 0 ;
+red -1 flag42_d6ge1 1 flag43_d6ge2 1 flag46_d6eq1 >= 0 ; flag46_d6eq1 -> 1 ;
+red 1 flag44_d6gem7 -1 flag45_d6gem6 2 ~flag47_d6eqm7 >= 1 ; flag47_d6eqm7 -> 0 ;
+red -1 flag44_d6gem7 1 flag45_d6gem6 1 flag47_d6eqm7 >= 0 ; flag47_d6eqm7 -> 1 ;
+red 1 flag47_d6eqm7 1 flag46_d6eq1 1 ~flag48_q6eq1 >= 1 ; flag48_q6eq1 -> 0 ;
+red -1 flag47_d6eqm7 -1 flag46_d6eq1 2 flag48_q6eq1 >= 0 ; flag48_q6eq1 -> 1 ;
+p 394 622 + s
+p 393 623 + s
+u 1 flag48_q6eq1 1 ~iv4_eq_6 >= 1 ;
+del range 635 637
+u 1 iv4_eq_5 1 iv4_eq_6 >= 1 ;
+p 638 620 + 637 + 
+del id 638
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 9 ~flag49_d4ge2 >= 2 ; flag49_d4ge2 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 6 flag49_d4ge2 >= -1 ; flag49_d4ge2 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag50_d4ge3 >= 3 ; flag50_d4ge3 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag50_d4ge3 >= -2 ; flag50_d4ge3 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 ~flag51_d4gem6 >= -6 ; flag51_d4gem6 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 14 flag51_d4gem6 >= 7 ; flag51_d4gem6 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag52_d4gem5 >= -5 ; flag52_d4gem5 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag52_d4gem5 >= 6 ; flag52_d4gem5 -> 1 ;
+red 1 flag49_d4ge2 -1 flag50_d4ge3 2 ~flag53_d4eq2 >= 1 ; flag53_d4eq2 -> 0 ;
+red -1 flag49_d4ge2 1 flag50_d4ge3 1 flag53_d4eq2 >= 0 ; flag53_d4eq2 -> 1 ;
+red 1 flag51_d4gem6 -1 flag52_d4gem5 2 ~flag54_d4eqm6 >= 1 ; flag54_d4eqm6 -> 0 ;
+red -1 flag51_d4gem6 1 flag52_d4gem5 1 flag54_d4eqm6 >= 0 ; flag54_d4eqm6 -> 1 ;
+red 1 flag54_d4eqm6 1 flag53_d4eq2 1 ~flag55_q4eq2 >= 1 ; flag55_q4eq2 -> 0 ;
+red -1 flag54_d4eqm6 -1 flag53_d4eq2 2 flag55_q4eq2 >= 0 ; flag55_q4eq2 -> 1 ;
+p 434 604 + 641 + s
+p 433 607 + 642 + 654 + s
+u 1 flag55_q4eq2 1 ~iv5_eq_4 1 ~flag39_d5eq1 >= 1 ;
+p 434 608 + 645 + s
+p 433 609 + 644 + 657 + 614 + s
+u 1 flag55_q4eq2 1 ~iv5_eq_4 1 ~flag41_q5eq1 >= 1 ;
+del range 654 659
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 9 ~flag56_d7ge2 >= 2 ; flag56_d7ge2 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 6 flag56_d7ge2 >= -1 ; flag56_d7ge2 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag57_d7ge3 >= 3 ; flag57_d7ge3 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag57_d7ge3 >= -2 ; flag57_d7ge3 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 ~flag58_d7gem6 >= -6 ; flag58_d7gem6 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 14 flag58_d7gem6 >= 7 ; flag58_d7gem6 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag59_d7gem5 >= -5 ; flag59_d7gem5 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag59_d7gem5 >= 6 ; flag59_d7gem5 -> 1 ;
+red 1 flag56_d7ge2 -1 flag57_d7ge3 2 ~flag60_d7eq2 >= 1 ; flag60_d7eq2 -> 0 ;
+red -1 flag56_d7ge2 1 flag57_d7ge3 1 flag60_d7eq2 >= 0 ; flag60_d7eq2 -> 1 ;
+red 1 flag58_d7gem6 -1 flag59_d7gem5 2 ~flag61_d7eqm6 >= 1 ; flag61_d7eqm6 -> 0 ;
+red -1 flag58_d7gem6 1 flag59_d7gem5 1 flag61_d7eqm6 >= 0 ; flag61_d7eqm6 -> 1 ;
+red 1 flag61_d7eqm6 1 flag60_d7eq2 1 ~flag62_q7eq2 >= 1 ; flag62_q7eq2 -> 0 ;
+red -1 flag61_d7eqm6 -1 flag60_d7eq2 2 flag62_q7eq2 >= 0 ; flag62_q7eq2 -> 1 ;
+p 448 604 + 661 + s
+p 447 607 + 662 + 674 + s
+u 1 flag62_q7eq2 1 ~iv5_eq_7 1 ~flag39_d5eq1 >= 1 ;
+p 448 608 + 665 + s
+p 447 609 + 664 + 677 + 614 + s
+u 1 flag62_q7eq2 1 ~iv5_eq_7 1 ~flag41_q5eq1 >= 1 ;
+del range 674 679
+u 1 iv5_eq_4 1 iv5_eq_7 >= 1 ;
+p 680 659 + s 679 + s 
+del id 680
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 9 ~flag63_d5ge2 >= 2 ; flag63_d5ge2 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 6 flag63_d5ge2 >= -1 ; flag63_d5ge2 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag64_d5ge3 >= 3 ; flag64_d5ge3 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag64_d5ge3 >= -2 ; flag64_d5ge3 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 ~flag65_d5gem6 >= -6 ; flag65_d5gem6 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 14 flag65_d5gem6 >= 7 ; flag65_d5gem6 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag66_d5gem5 >= -5 ; flag66_d5gem5 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag66_d5gem5 >= 6 ; flag66_d5gem5 -> 1 ;
+red 1 flag63_d5ge2 -1 flag64_d5ge3 2 ~flag67_d5eq2 >= 1 ; flag67_d5eq2 -> 0 ;
+red -1 flag63_d5ge2 1 flag64_d5ge3 1 flag67_d5eq2 >= 0 ; flag67_d5eq2 -> 1 ;
+red 1 flag65_d5gem6 -1 flag66_d5gem5 2 ~flag68_d5eqm6 >= 1 ; flag68_d5eqm6 -> 0 ;
+red -1 flag65_d5gem6 1 flag66_d5gem5 1 flag68_d5eqm6 >= 0 ; flag68_d5eqm6 -> 1 ;
+red 1 flag68_d5eqm6 1 flag67_d5eq2 1 ~flag69_q5eq2 >= 1 ; flag69_q5eq2 -> 0 ;
+red -1 flag68_d5eqm6 -1 flag67_d5eq2 2 flag69_q5eq2 >= 0 ; flag69_q5eq2 -> 1 ;
+p 492 621 + 683 + s
+p 491 624 + 684 + 696 + s
+u 1 flag69_q5eq2 1 ~iv6_eq_5 1 ~flag46_d6eq1 >= 1 ;
+p 492 625 + 687 + s
+p 491 626 + 686 + 699 + 631 + s
+u 1 flag69_q5eq2 1 ~iv6_eq_5 1 ~flag48_q6eq1 >= 1 ;
+del range 696 701
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 9 ~flag70_d7ge2 >= 2 ; flag70_d7ge2 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 6 flag70_d7ge2 >= -1 ; flag70_d7ge2 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag71_d7ge3 >= 3 ; flag71_d7ge3 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag71_d7ge3 >= -2 ; flag71_d7ge3 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 ~flag72_d7gem6 >= -6 ; flag72_d7gem6 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 14 flag72_d7gem6 >= 7 ; flag72_d7gem6 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag73_d7gem5 >= -5 ; flag73_d7gem5 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag73_d7gem5 >= 6 ; flag73_d7gem5 -> 1 ;
+red 1 flag70_d7ge2 -1 flag71_d7ge3 2 ~flag74_d7eq2 >= 1 ; flag74_d7eq2 -> 0 ;
+red -1 flag70_d7ge2 1 flag71_d7ge3 1 flag74_d7eq2 >= 0 ; flag74_d7eq2 -> 1 ;
+red 1 flag72_d7gem6 -1 flag73_d7gem5 2 ~flag75_d7eqm6 >= 1 ; flag75_d7eqm6 -> 0 ;
+red -1 flag72_d7gem6 1 flag73_d7gem5 1 flag75_d7eqm6 >= 0 ; flag75_d7eqm6 -> 1 ;
+red 1 flag75_d7eqm6 1 flag74_d7eq2 1 ~flag76_q7eq2 >= 1 ; flag76_q7eq2 -> 0 ;
+red -1 flag75_d7eqm6 -1 flag74_d7eq2 2 flag76_q7eq2 >= 0 ; flag76_q7eq2 -> 1 ;
+p 498 621 + 703 + s
+p 497 624 + 704 + 716 + s
+u 1 flag76_q7eq2 1 ~iv6_eq_7 1 ~flag46_d6eq1 >= 1 ;
+p 498 625 + 707 + s
+p 497 626 + 706 + 719 + 631 + s
+u 1 flag76_q7eq2 1 ~iv6_eq_7 1 ~flag48_q6eq1 >= 1 ;
+del range 716 721
+u 1 iv6_eq_5 1 iv6_eq_7 >= 1 ;
+p 722 701 + s 721 + s 
+del id 722
+* LAYER
+p 639 681 + s 723 + s 
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag77_d5ge3 >= 3 ; flag77_d5ge3 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag77_d5ge3 >= -2 ; flag77_d5ge3 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag78_d5ge4 >= 4 ; flag78_d5ge4 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag78_d5ge4 >= -3 ; flag78_d5ge4 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag79_d5gem5 >= -5 ; flag79_d5gem5 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag79_d5gem5 >= 6 ; flag79_d5gem5 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag80_d5gem4 >= -4 ; flag80_d5gem4 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag80_d5gem4 >= 5 ; flag80_d5gem4 -> 1 ;
+red 1 flag77_d5ge3 -1 flag78_d5ge4 2 ~flag81_d5eq3 >= 1 ; flag81_d5eq3 -> 0 ;
+red -1 flag77_d5ge3 1 flag78_d5ge4 1 flag81_d5eq3 >= 0 ; flag81_d5eq3 -> 1 ;
+red 1 flag79_d5gem5 -1 flag80_d5gem4 2 ~flag82_d5eqm5 >= 1 ; flag82_d5eqm5 -> 0 ;
+red -1 flag79_d5gem5 1 flag80_d5gem4 1 flag82_d5eqm5 >= 0 ; flag82_d5eqm5 -> 1 ;
+red 1 flag82_d5eqm5 1 flag81_d5eq3 1 ~flag83_q5eq3 >= 1 ; flag83_q5eq3 -> 0 ;
+red -1 flag82_d5eqm5 -1 flag81_d5eq3 2 flag83_q5eq3 >= 0 ; flag83_q5eq3 -> 1 ;
+p 392 640 + 726 + s
+p 391 643 + 727 + 739 + s
+u 1 flag83_q5eq3 1 ~iv4_eq_5 1 ~flag53_d4eq2 >= 1 ;
+p 392 644 + 730 + s
+p 391 645 + 729 + 742 + 650 + s
+u 1 flag83_q5eq3 1 ~iv4_eq_5 1 ~flag55_q4eq2 >= 1 ;
+del range 739 744
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag84_d6ge3 >= 3 ; flag84_d6ge3 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag84_d6ge3 >= -2 ; flag84_d6ge3 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag85_d6ge4 >= 4 ; flag85_d6ge4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag85_d6ge4 >= -3 ; flag85_d6ge4 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag86_d6gem5 >= -5 ; flag86_d6gem5 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag86_d6gem5 >= 6 ; flag86_d6gem5 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag87_d6gem4 >= -4 ; flag87_d6gem4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag87_d6gem4 >= 5 ; flag87_d6gem4 -> 1 ;
+red 1 flag84_d6ge3 -1 flag85_d6ge4 2 ~flag88_d6eq3 >= 1 ; flag88_d6eq3 -> 0 ;
+red -1 flag84_d6ge3 1 flag85_d6ge4 1 flag88_d6eq3 >= 0 ; flag88_d6eq3 -> 1 ;
+red 1 flag86_d6gem5 -1 flag87_d6gem4 2 ~flag89_d6eqm5 >= 1 ; flag89_d6eqm5 -> 0 ;
+red -1 flag86_d6gem5 1 flag87_d6gem4 1 flag89_d6eqm5 >= 0 ; flag89_d6eqm5 -> 1 ;
+red 1 flag89_d6eqm5 1 flag88_d6eq3 1 ~flag90_q6eq3 >= 1 ; flag90_q6eq3 -> 0 ;
+red -1 flag89_d6eqm5 -1 flag88_d6eq3 2 flag90_q6eq3 >= 0 ; flag90_q6eq3 -> 1 ;
+p 394 640 + 746 + s
+p 393 643 + 747 + 759 + s
+u 1 flag90_q6eq3 1 ~iv4_eq_6 1 ~flag53_d4eq2 >= 1 ;
+p 394 644 + 750 + s
+p 393 645 + 749 + 762 + 650 + s
+u 1 flag90_q6eq3 1 ~iv4_eq_6 1 ~flag55_q4eq2 >= 1 ;
+del range 759 764
+u 1 iv4_eq_5 1 iv4_eq_6 >= 1 ;
+p 765 744 + s 764 + s 
+del id 765
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag91_d4ge3 >= 3 ; flag91_d4ge3 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag91_d4ge3 >= -2 ; flag91_d4ge3 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag92_d4ge4 >= 4 ; flag92_d4ge4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag92_d4ge4 >= -3 ; flag92_d4ge4 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag93_d4gem5 >= -5 ; flag93_d4gem5 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag93_d4gem5 >= 6 ; flag93_d4gem5 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag94_d4gem4 >= -4 ; flag94_d4gem4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag94_d4gem4 >= 5 ; flag94_d4gem4 -> 1 ;
+red 1 flag91_d4ge3 -1 flag92_d4ge4 2 ~flag95_d4eq3 >= 1 ; flag95_d4eq3 -> 0 ;
+red -1 flag91_d4ge3 1 flag92_d4ge4 1 flag95_d4eq3 >= 0 ; flag95_d4eq3 -> 1 ;
+red 1 flag93_d4gem5 -1 flag94_d4gem4 2 ~flag96_d4eqm5 >= 1 ; flag96_d4eqm5 -> 0 ;
+red -1 flag93_d4gem5 1 flag94_d4gem4 1 flag96_d4eqm5 >= 0 ; flag96_d4eqm5 -> 1 ;
+red 1 flag96_d4eqm5 1 flag95_d4eq3 1 ~flag97_q4eq3 >= 1 ; flag97_q4eq3 -> 0 ;
+red -1 flag96_d4eqm5 -1 flag95_d4eq3 2 flag97_q4eq3 >= 0 ; flag97_q4eq3 -> 1 ;
+p 434 682 + 768 + s
+p 433 726 + 769 + 781 + s
+u 1 flag97_q4eq3 1 ~iv5_eq_4 1 ~flag67_d5eq2 >= 1 ;
+p 434 686 + 772 + s
+p 433 687 + 771 + 784 + 692 + s
+u 1 flag97_q4eq3 1 ~iv5_eq_4 1 ~flag69_q5eq2 >= 1 ;
+del range 781 786
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag98_d7ge3 >= 3 ; flag98_d7ge3 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag98_d7ge3 >= -2 ; flag98_d7ge3 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag99_d7ge4 >= 4 ; flag99_d7ge4 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag99_d7ge4 >= -3 ; flag99_d7ge4 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag100_d7gem5 >= -5 ; flag100_d7gem5 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag100_d7gem5 >= 6 ; flag100_d7gem5 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag101_d7gem4 >= -4 ; flag101_d7gem4 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag101_d7gem4 >= 5 ; flag101_d7gem4 -> 1 ;
+red 1 flag98_d7ge3 -1 flag99_d7ge4 2 ~flag102_d7eq3 >= 1 ; flag102_d7eq3 -> 0 ;
+red -1 flag98_d7ge3 1 flag99_d7ge4 1 flag102_d7eq3 >= 0 ; flag102_d7eq3 -> 1 ;
+red 1 flag100_d7gem5 -1 flag101_d7gem4 2 ~flag103_d7eqm5 >= 1 ; flag103_d7eqm5 -> 0 ;
+red -1 flag100_d7gem5 1 flag101_d7gem4 1 flag103_d7eqm5 >= 0 ; flag103_d7eqm5 -> 1 ;
+red 1 flag103_d7eqm5 1 flag102_d7eq3 1 ~flag104_q7eq3 >= 1 ; flag104_q7eq3 -> 0 ;
+red -1 flag103_d7eqm5 -1 flag102_d7eq3 2 flag104_q7eq3 >= 0 ; flag104_q7eq3 -> 1 ;
+p 448 682 + 788 + s
+p 447 726 + 789 + 801 + s
+u 1 flag104_q7eq3 1 ~iv5_eq_7 1 ~flag67_d5eq2 >= 1 ;
+p 448 686 + 792 + s
+p 447 687 + 791 + 804 + 692 + s
+u 1 flag104_q7eq3 1 ~iv5_eq_7 1 ~flag69_q5eq2 >= 1 ;
+del range 801 806
+u 1 iv5_eq_4 1 iv5_eq_7 >= 1 ;
+p 807 786 + s 806 + s 
+del id 807
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag105_d4ge3 >= 3 ; flag105_d4ge3 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag105_d4ge3 >= -2 ; flag105_d4ge3 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag106_d4ge4 >= 4 ; flag106_d4ge4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag106_d4ge4 >= -3 ; flag106_d4ge4 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag107_d4gem5 >= -5 ; flag107_d4gem5 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag107_d4gem5 >= 6 ; flag107_d4gem5 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag108_d4gem4 >= -4 ; flag108_d4gem4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag108_d4gem4 >= 5 ; flag108_d4gem4 -> 1 ;
+red 1 flag105_d4ge3 -1 flag106_d4ge4 2 ~flag109_d4eq3 >= 1 ; flag109_d4eq3 -> 0 ;
+red -1 flag105_d4ge3 1 flag106_d4ge4 1 flag109_d4eq3 >= 0 ; flag109_d4eq3 -> 1 ;
+red 1 flag107_d4gem5 -1 flag108_d4gem4 2 ~flag110_d4eqm5 >= 1 ; flag110_d4eqm5 -> 0 ;
+red -1 flag107_d4gem5 1 flag108_d4gem4 1 flag110_d4eqm5 >= 0 ; flag110_d4eqm5 -> 1 ;
+red 1 flag110_d4eqm5 1 flag109_d4eq3 1 ~flag111_q4eq3 >= 1 ; flag111_q4eq3 -> 0 ;
+red -1 flag110_d4eqm5 -1 flag109_d4eq3 2 flag111_q4eq3 >= 0 ; flag111_q4eq3 -> 1 ;
+p 531 702 + 810 + s
+p 530 788 + 811 + 823 + s
+u 1 flag111_q4eq3 1 ~iv7_eq_4 1 ~flag74_d7eq2 >= 1 ;
+p 531 706 + 814 + s
+p 530 707 + 813 + 826 + 712 + s
+u 1 flag111_q4eq3 1 ~iv7_eq_4 1 ~flag76_q7eq2 >= 1 ;
+del range 823 828
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 10 ~flag112_d6ge3 >= 3 ; flag112_d6ge3 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 5 flag112_d6ge3 >= -2 ; flag112_d6ge3 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag113_d6ge4 >= 4 ; flag113_d6ge4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag113_d6ge4 >= -3 ; flag113_d6ge4 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 2 ~flag114_d6gem5 >= -5 ; flag114_d6gem5 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 13 flag114_d6gem5 >= 6 ; flag114_d6gem5 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag115_d6gem4 >= -4 ; flag115_d6gem4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag115_d6gem4 >= 5 ; flag115_d6gem4 -> 1 ;
+red 1 flag112_d6ge3 -1 flag113_d6ge4 2 ~flag116_d6eq3 >= 1 ; flag116_d6eq3 -> 0 ;
+red -1 flag112_d6ge3 1 flag113_d6ge4 1 flag116_d6eq3 >= 0 ; flag116_d6eq3 -> 1 ;
+red 1 flag114_d6gem5 -1 flag115_d6gem4 2 ~flag117_d6eqm5 >= 1 ; flag117_d6eqm5 -> 0 ;
+red -1 flag114_d6gem5 1 flag115_d6gem4 1 flag117_d6eqm5 >= 0 ; flag117_d6eqm5 -> 1 ;
+red 1 flag117_d6eqm5 1 flag116_d6eq3 1 ~flag118_q6eq3 >= 1 ; flag118_q6eq3 -> 0 ;
+red -1 flag117_d6eqm5 -1 flag116_d6eq3 2 flag118_q6eq3 >= 0 ; flag118_q6eq3 -> 1 ;
+p 537 702 + 830 + s
+p 536 788 + 831 + 843 + s
+u 1 flag118_q6eq3 1 ~iv7_eq_6 1 ~flag74_d7eq2 >= 1 ;
+p 537 706 + 834 + s
+p 536 707 + 833 + 846 + 712 + s
+u 1 flag118_q6eq3 1 ~iv7_eq_6 1 ~flag76_q7eq2 >= 1 ;
+del range 843 848
+u 1 iv7_eq_4 1 iv7_eq_6 >= 1 ;
+p 849 828 + s 848 + s 
+del id 849
+* LAYER
+p 724 766 + s 808 + s 850 + s 
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag119_d5ge4 >= 4 ; flag119_d5ge4 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag119_d5ge4 >= -3 ; flag119_d5ge4 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag120_d5ge5 >= 5 ; flag120_d5ge5 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag120_d5ge5 >= -4 ; flag120_d5ge5 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag121_d5gem4 >= -4 ; flag121_d5gem4 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag121_d5gem4 >= 5 ; flag121_d5gem4 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag122_d5gem3 >= -3 ; flag122_d5gem3 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag122_d5gem3 >= 4 ; flag122_d5gem3 -> 1 ;
+red 1 flag119_d5ge4 -1 flag120_d5ge5 2 ~flag123_d5eq4 >= 1 ; flag123_d5eq4 -> 0 ;
+red -1 flag119_d5ge4 1 flag120_d5ge5 1 flag123_d5eq4 >= 0 ; flag123_d5eq4 -> 1 ;
+red 1 flag121_d5gem4 -1 flag122_d5gem3 2 ~flag124_d5eqm4 >= 1 ; flag124_d5eqm4 -> 0 ;
+red -1 flag121_d5gem4 1 flag122_d5gem3 1 flag124_d5eqm4 >= 0 ; flag124_d5eqm4 -> 1 ;
+red 1 flag124_d5eqm4 1 flag123_d5eq4 1 ~flag125_q5eq4 >= 1 ; flag125_q5eq4 -> 0 ;
+red -1 flag124_d5eqm4 -1 flag123_d5eq4 2 flag125_q5eq4 >= 0 ; flag125_q5eq4 -> 1 ;
+p 392 809 + 853 + s
+p 391 812 + 854 + 866 + s
+u 1 flag125_q5eq4 1 ~iv4_eq_5 1 ~flag109_d4eq3 >= 1 ;
+p 392 813 + 857 + s
+p 391 814 + 856 + 869 + 819 + s
+u 1 flag125_q5eq4 1 ~iv4_eq_5 1 ~flag111_q4eq3 >= 1 ;
+del range 866 871
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag126_d6ge4 >= 4 ; flag126_d6ge4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag126_d6ge4 >= -3 ; flag126_d6ge4 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag127_d6ge5 >= 5 ; flag127_d6ge5 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag127_d6ge5 >= -4 ; flag127_d6ge5 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag128_d6gem4 >= -4 ; flag128_d6gem4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag128_d6gem4 >= 5 ; flag128_d6gem4 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag129_d6gem3 >= -3 ; flag129_d6gem3 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag129_d6gem3 >= 4 ; flag129_d6gem3 -> 1 ;
+red 1 flag126_d6ge4 -1 flag127_d6ge5 2 ~flag130_d6eq4 >= 1 ; flag130_d6eq4 -> 0 ;
+red -1 flag126_d6ge4 1 flag127_d6ge5 1 flag130_d6eq4 >= 0 ; flag130_d6eq4 -> 1 ;
+red 1 flag128_d6gem4 -1 flag129_d6gem3 2 ~flag131_d6eqm4 >= 1 ; flag131_d6eqm4 -> 0 ;
+red -1 flag128_d6gem4 1 flag129_d6gem3 1 flag131_d6eqm4 >= 0 ; flag131_d6eqm4 -> 1 ;
+red 1 flag131_d6eqm4 1 flag130_d6eq4 1 ~flag132_q6eq4 >= 1 ; flag132_q6eq4 -> 0 ;
+red -1 flag131_d6eqm4 -1 flag130_d6eq4 2 flag132_q6eq4 >= 0 ; flag132_q6eq4 -> 1 ;
+p 394 809 + 873 + s
+p 393 812 + 874 + 886 + s
+u 1 flag132_q6eq4 1 ~iv4_eq_6 1 ~flag109_d4eq3 >= 1 ;
+p 394 813 + 877 + s
+p 393 814 + 876 + 889 + 819 + s
+u 1 flag132_q6eq4 1 ~iv4_eq_6 1 ~flag111_q4eq3 >= 1 ;
+del range 886 891
+u 1 iv4_eq_5 1 iv4_eq_6 >= 1 ;
+p 892 871 + s 891 + s 
+del id 892
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag133_d4ge4 >= 4 ; flag133_d4ge4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag133_d4ge4 >= -3 ; flag133_d4ge4 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag134_d4ge5 >= 5 ; flag134_d4ge5 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag134_d4ge5 >= -4 ; flag134_d4ge5 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag135_d4gem4 >= -4 ; flag135_d4gem4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag135_d4gem4 >= 5 ; flag135_d4gem4 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag136_d4gem3 >= -3 ; flag136_d4gem3 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag136_d4gem3 >= 4 ; flag136_d4gem3 -> 1 ;
+red 1 flag133_d4ge4 -1 flag134_d4ge5 2 ~flag137_d4eq4 >= 1 ; flag137_d4eq4 -> 0 ;
+red -1 flag133_d4ge4 1 flag134_d4ge5 1 flag137_d4eq4 >= 0 ; flag137_d4eq4 -> 1 ;
+red 1 flag135_d4gem4 -1 flag136_d4gem3 2 ~flag138_d4eqm4 >= 1 ; flag138_d4eqm4 -> 0 ;
+red -1 flag135_d4gem4 1 flag136_d4gem3 1 flag138_d4eqm4 >= 0 ; flag138_d4eqm4 -> 1 ;
+red 1 flag138_d4eqm4 1 flag137_d4eq4 1 ~flag139_q4eq4 >= 1 ; flag139_q4eq4 -> 0 ;
+red -1 flag138_d4eqm4 -1 flag137_d4eq4 2 flag139_q4eq4 >= 0 ; flag139_q4eq4 -> 1 ;
+p 434 725 + 895 + s
+p 433 853 + 896 + 908 + s
+u 1 flag139_q4eq4 1 ~iv5_eq_4 1 ~flag81_d5eq3 >= 1 ;
+p 434 729 + 899 + s
+p 433 730 + 898 + 911 + 735 + s
+u 1 flag139_q4eq4 1 ~iv5_eq_4 1 ~flag83_q5eq3 >= 1 ;
+del range 908 913
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag140_d7ge4 >= 4 ; flag140_d7ge4 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag140_d7ge4 >= -3 ; flag140_d7ge4 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag141_d7ge5 >= 5 ; flag141_d7ge5 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag141_d7ge5 >= -4 ; flag141_d7ge5 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag142_d7gem4 >= -4 ; flag142_d7gem4 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag142_d7gem4 >= 5 ; flag142_d7gem4 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag143_d7gem3 >= -3 ; flag143_d7gem3 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag143_d7gem3 >= 4 ; flag143_d7gem3 -> 1 ;
+red 1 flag140_d7ge4 -1 flag141_d7ge5 2 ~flag144_d7eq4 >= 1 ; flag144_d7eq4 -> 0 ;
+red -1 flag140_d7ge4 1 flag141_d7ge5 1 flag144_d7eq4 >= 0 ; flag144_d7eq4 -> 1 ;
+red 1 flag142_d7gem4 -1 flag143_d7gem3 2 ~flag145_d7eqm4 >= 1 ; flag145_d7eqm4 -> 0 ;
+red -1 flag142_d7gem4 1 flag143_d7gem3 1 flag145_d7eqm4 >= 0 ; flag145_d7eqm4 -> 1 ;
+red 1 flag145_d7eqm4 1 flag144_d7eq4 1 ~flag146_q7eq4 >= 1 ; flag146_q7eq4 -> 0 ;
+red -1 flag145_d7eqm4 -1 flag144_d7eq4 2 flag146_q7eq4 >= 0 ; flag146_q7eq4 -> 1 ;
+p 448 725 + 915 + s
+p 447 853 + 916 + 928 + s
+u 1 flag146_q7eq4 1 ~iv5_eq_7 1 ~flag81_d5eq3 >= 1 ;
+p 448 729 + 919 + s
+p 447 730 + 918 + 931 + 735 + s
+u 1 flag146_q7eq4 1 ~iv5_eq_7 1 ~flag83_q5eq3 >= 1 ;
+del range 928 933
+u 1 iv5_eq_4 1 iv5_eq_7 >= 1 ;
+p 934 913 + s 933 + s 
+del id 934
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag147_d5ge4 >= 4 ; flag147_d5ge4 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag147_d5ge4 >= -3 ; flag147_d5ge4 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag148_d5ge5 >= 5 ; flag148_d5ge5 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag148_d5ge5 >= -4 ; flag148_d5ge5 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag149_d5gem4 >= -4 ; flag149_d5gem4 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag149_d5gem4 >= 5 ; flag149_d5gem4 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag150_d5gem3 >= -3 ; flag150_d5gem3 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag150_d5gem3 >= 4 ; flag150_d5gem3 -> 1 ;
+red 1 flag147_d5ge4 -1 flag148_d5ge5 2 ~flag151_d5eq4 >= 1 ; flag151_d5eq4 -> 0 ;
+red -1 flag147_d5ge4 1 flag148_d5ge5 1 flag151_d5eq4 >= 0 ; flag151_d5eq4 -> 1 ;
+red 1 flag149_d5gem4 -1 flag150_d5gem3 2 ~flag152_d5eqm4 >= 1 ; flag152_d5eqm4 -> 0 ;
+red -1 flag149_d5gem4 1 flag150_d5gem3 1 flag152_d5eqm4 >= 0 ; flag152_d5eqm4 -> 1 ;
+red 1 flag152_d5eqm4 1 flag151_d5eq4 1 ~flag153_q5eq4 >= 1 ; flag153_q5eq4 -> 0 ;
+red -1 flag152_d5eqm4 -1 flag151_d5eq4 2 flag153_q5eq4 >= 0 ; flag153_q5eq4 -> 1 ;
+p 492 829 + 937 + s
+p 491 873 + 938 + 950 + s
+u 1 flag153_q5eq4 1 ~iv6_eq_5 1 ~flag116_d6eq3 >= 1 ;
+p 492 833 + 941 + s
+p 491 834 + 940 + 953 + 839 + s
+u 1 flag153_q5eq4 1 ~iv6_eq_5 1 ~flag118_q6eq3 >= 1 ;
+del range 950 955
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag154_d7ge4 >= 4 ; flag154_d7ge4 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag154_d7ge4 >= -3 ; flag154_d7ge4 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag155_d7ge5 >= 5 ; flag155_d7ge5 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag155_d7ge5 >= -4 ; flag155_d7ge5 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag156_d7gem4 >= -4 ; flag156_d7gem4 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag156_d7gem4 >= 5 ; flag156_d7gem4 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag157_d7gem3 >= -3 ; flag157_d7gem3 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag157_d7gem3 >= 4 ; flag157_d7gem3 -> 1 ;
+red 1 flag154_d7ge4 -1 flag155_d7ge5 2 ~flag158_d7eq4 >= 1 ; flag158_d7eq4 -> 0 ;
+red -1 flag154_d7ge4 1 flag155_d7ge5 1 flag158_d7eq4 >= 0 ; flag158_d7eq4 -> 1 ;
+red 1 flag156_d7gem4 -1 flag157_d7gem3 2 ~flag159_d7eqm4 >= 1 ; flag159_d7eqm4 -> 0 ;
+red -1 flag156_d7gem4 1 flag157_d7gem3 1 flag159_d7eqm4 >= 0 ; flag159_d7eqm4 -> 1 ;
+red 1 flag159_d7eqm4 1 flag158_d7eq4 1 ~flag160_q7eq4 >= 1 ; flag160_q7eq4 -> 0 ;
+red -1 flag159_d7eqm4 -1 flag158_d7eq4 2 flag160_q7eq4 >= 0 ; flag160_q7eq4 -> 1 ;
+p 498 829 + 957 + s
+p 497 873 + 958 + 970 + s
+u 1 flag160_q7eq4 1 ~iv6_eq_7 1 ~flag116_d6eq3 >= 1 ;
+p 498 833 + 961 + s
+p 497 834 + 960 + 973 + 839 + s
+u 1 flag160_q7eq4 1 ~iv6_eq_7 1 ~flag118_q6eq3 >= 1 ;
+del range 970 975
+u 1 iv6_eq_5 1 iv6_eq_7 >= 1 ;
+p 976 955 + s 975 + s 
+del id 976
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag161_d4ge4 >= 4 ; flag161_d4ge4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag161_d4ge4 >= -3 ; flag161_d4ge4 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag162_d4ge5 >= 5 ; flag162_d4ge5 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag162_d4ge5 >= -4 ; flag162_d4ge5 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag163_d4gem4 >= -4 ; flag163_d4gem4 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag163_d4gem4 >= 5 ; flag163_d4gem4 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag164_d4gem3 >= -3 ; flag164_d4gem3 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag164_d4gem3 >= 4 ; flag164_d4gem3 -> 1 ;
+red 1 flag161_d4ge4 -1 flag162_d4ge5 2 ~flag165_d4eq4 >= 1 ; flag165_d4eq4 -> 0 ;
+red -1 flag161_d4ge4 1 flag162_d4ge5 1 flag165_d4eq4 >= 0 ; flag165_d4eq4 -> 1 ;
+red 1 flag163_d4gem4 -1 flag164_d4gem3 2 ~flag166_d4eqm4 >= 1 ; flag166_d4eqm4 -> 0 ;
+red -1 flag163_d4gem4 1 flag164_d4gem3 1 flag166_d4eqm4 >= 0 ; flag166_d4eqm4 -> 1 ;
+red 1 flag166_d4eqm4 1 flag165_d4eq4 1 ~flag167_q4eq4 >= 1 ; flag167_q4eq4 -> 0 ;
+red -1 flag166_d4eqm4 -1 flag165_d4eq4 2 flag167_q4eq4 >= 0 ; flag167_q4eq4 -> 1 ;
+p 531 787 + 979 + s
+p 530 957 + 980 + 992 + s
+u 1 flag167_q4eq4 1 ~iv7_eq_4 1 ~flag102_d7eq3 >= 1 ;
+p 531 791 + 983 + s
+p 530 792 + 982 + 995 + 797 + s
+u 1 flag167_q4eq4 1 ~iv7_eq_4 1 ~flag104_q7eq3 >= 1 ;
+del range 992 997
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 11 ~flag168_d6ge4 >= 4 ; flag168_d6ge4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 4 flag168_d6ge4 >= -3 ; flag168_d6ge4 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag169_d6ge5 >= 5 ; flag169_d6ge5 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag169_d6ge5 >= -4 ; flag169_d6ge5 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 3 ~flag170_d6gem4 >= -4 ; flag170_d6gem4 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 12 flag170_d6gem4 >= 5 ; flag170_d6gem4 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag171_d6gem3 >= -3 ; flag171_d6gem3 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag171_d6gem3 >= 4 ; flag171_d6gem3 -> 1 ;
+red 1 flag168_d6ge4 -1 flag169_d6ge5 2 ~flag172_d6eq4 >= 1 ; flag172_d6eq4 -> 0 ;
+red -1 flag168_d6ge4 1 flag169_d6ge5 1 flag172_d6eq4 >= 0 ; flag172_d6eq4 -> 1 ;
+red 1 flag170_d6gem4 -1 flag171_d6gem3 2 ~flag173_d6eqm4 >= 1 ; flag173_d6eqm4 -> 0 ;
+red -1 flag170_d6gem4 1 flag171_d6gem3 1 flag173_d6eqm4 >= 0 ; flag173_d6eqm4 -> 1 ;
+red 1 flag173_d6eqm4 1 flag172_d6eq4 1 ~flag174_q6eq4 >= 1 ; flag174_q6eq4 -> 0 ;
+red -1 flag173_d6eqm4 -1 flag172_d6eq4 2 flag174_q6eq4 >= 0 ; flag174_q6eq4 -> 1 ;
+p 537 787 + 999 + s
+p 536 957 + 1000 + 1012 + s
+u 1 flag174_q6eq4 1 ~iv7_eq_6 1 ~flag102_d7eq3 >= 1 ;
+p 537 791 + 1003 + s
+p 536 792 + 1002 + 1015 + 797 + s
+u 1 flag174_q6eq4 1 ~iv7_eq_6 1 ~flag104_q7eq3 >= 1 ;
+del range 1012 1017
+u 1 iv7_eq_4 1 iv7_eq_6 >= 1 ;
+p 1018 997 + s 1017 + s 
+del id 1018
+* LAYER
+p 851 893 + s 935 + s 977 + s 1019 + s 
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag175_d5ge5 >= 5 ; flag175_d5ge5 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag175_d5ge5 >= -4 ; flag175_d5ge5 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag176_d5ge6 >= 6 ; flag176_d5ge6 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag176_d5ge6 >= -5 ; flag176_d5ge6 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag177_d5gem3 >= -3 ; flag177_d5gem3 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag177_d5gem3 >= 4 ; flag177_d5gem3 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag178_d5gem2 >= -2 ; flag178_d5gem2 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag178_d5gem2 >= 3 ; flag178_d5gem2 -> 1 ;
+red 1 flag175_d5ge5 -1 flag176_d5ge6 2 ~flag179_d5eq5 >= 1 ; flag179_d5eq5 -> 0 ;
+red -1 flag175_d5ge5 1 flag176_d5ge6 1 flag179_d5eq5 >= 0 ; flag179_d5eq5 -> 1 ;
+red 1 flag177_d5gem3 -1 flag178_d5gem2 2 ~flag180_d5eqm3 >= 1 ; flag180_d5eqm3 -> 0 ;
+red -1 flag177_d5gem3 1 flag178_d5gem2 1 flag180_d5eqm3 >= 0 ; flag180_d5eqm3 -> 1 ;
+red 1 flag180_d5eqm3 1 flag179_d5eq5 1 ~flag181_q5eq5 >= 1 ; flag181_q5eq5 -> 0 ;
+red -1 flag180_d5eqm3 -1 flag179_d5eq5 2 flag181_q5eq5 >= 0 ; flag181_q5eq5 -> 1 ;
+p 392 978 + 1022 + s
+p 391 981 + 1023 + 1035 + s
+u 1 flag181_q5eq5 1 ~iv4_eq_5 1 ~flag165_d4eq4 >= 1 ;
+p 392 982 + 1026 + s
+p 391 983 + 1025 + 1038 + 988 + s
+u 1 flag181_q5eq5 1 ~iv4_eq_5 1 ~flag167_q4eq4 >= 1 ;
+del range 1035 1040
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag182_d6ge5 >= 5 ; flag182_d6ge5 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag182_d6ge5 >= -4 ; flag182_d6ge5 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag183_d6ge6 >= 6 ; flag183_d6ge6 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag183_d6ge6 >= -5 ; flag183_d6ge6 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag184_d6gem3 >= -3 ; flag184_d6gem3 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag184_d6gem3 >= 4 ; flag184_d6gem3 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag185_d6gem2 >= -2 ; flag185_d6gem2 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag185_d6gem2 >= 3 ; flag185_d6gem2 -> 1 ;
+red 1 flag182_d6ge5 -1 flag183_d6ge6 2 ~flag186_d6eq5 >= 1 ; flag186_d6eq5 -> 0 ;
+red -1 flag182_d6ge5 1 flag183_d6ge6 1 flag186_d6eq5 >= 0 ; flag186_d6eq5 -> 1 ;
+red 1 flag184_d6gem3 -1 flag185_d6gem2 2 ~flag187_d6eqm3 >= 1 ; flag187_d6eqm3 -> 0 ;
+red -1 flag184_d6gem3 1 flag185_d6gem2 1 flag187_d6eqm3 >= 0 ; flag187_d6eqm3 -> 1 ;
+red 1 flag187_d6eqm3 1 flag186_d6eq5 1 ~flag188_q6eq5 >= 1 ; flag188_q6eq5 -> 0 ;
+red -1 flag187_d6eqm3 -1 flag186_d6eq5 2 flag188_q6eq5 >= 0 ; flag188_q6eq5 -> 1 ;
+p 394 978 + 1042 + s
+p 393 981 + 1043 + 1055 + s
+u 1 flag188_q6eq5 1 ~iv4_eq_6 1 ~flag165_d4eq4 >= 1 ;
+p 394 982 + 1046 + s
+p 393 983 + 1045 + 1058 + 988 + s
+u 1 flag188_q6eq5 1 ~iv4_eq_6 1 ~flag167_q4eq4 >= 1 ;
+del range 1055 1060
+u 1 iv4_eq_5 1 iv4_eq_6 >= 1 ;
+p 1061 1040 + s 1060 + s 
+del id 1061
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag189_d4ge5 >= 5 ; flag189_d4ge5 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag189_d4ge5 >= -4 ; flag189_d4ge5 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag190_d4ge6 >= 6 ; flag190_d4ge6 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag190_d4ge6 >= -5 ; flag190_d4ge6 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag191_d4gem3 >= -3 ; flag191_d4gem3 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag191_d4gem3 >= 4 ; flag191_d4gem3 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag192_d4gem2 >= -2 ; flag192_d4gem2 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag192_d4gem2 >= 3 ; flag192_d4gem2 -> 1 ;
+red 1 flag189_d4ge5 -1 flag190_d4ge6 2 ~flag193_d4eq5 >= 1 ; flag193_d4eq5 -> 0 ;
+red -1 flag189_d4ge5 1 flag190_d4ge6 1 flag193_d4eq5 >= 0 ; flag193_d4eq5 -> 1 ;
+red 1 flag191_d4gem3 -1 flag192_d4gem2 2 ~flag194_d4eqm3 >= 1 ; flag194_d4eqm3 -> 0 ;
+red -1 flag191_d4gem3 1 flag192_d4gem2 1 flag194_d4eqm3 >= 0 ; flag194_d4eqm3 -> 1 ;
+red 1 flag194_d4eqm3 1 flag193_d4eq5 1 ~flag195_q4eq5 >= 1 ; flag195_q4eq5 -> 0 ;
+red -1 flag194_d4eqm3 -1 flag193_d4eq5 2 flag195_q4eq5 >= 0 ; flag195_q4eq5 -> 1 ;
+p 434 936 + 1064 + s
+p 433 1022 + 1065 + 1077 + s
+u 1 flag195_q4eq5 1 ~iv5_eq_4 1 ~flag151_d5eq4 >= 1 ;
+p 434 940 + 1068 + s
+p 433 941 + 1067 + 1080 + 946 + s
+u 1 flag195_q4eq5 1 ~iv5_eq_4 1 ~flag153_q5eq4 >= 1 ;
+del range 1077 1082
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag196_d7ge5 >= 5 ; flag196_d7ge5 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag196_d7ge5 >= -4 ; flag196_d7ge5 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag197_d7ge6 >= 6 ; flag197_d7ge6 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag197_d7ge6 >= -5 ; flag197_d7ge6 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag198_d7gem3 >= -3 ; flag198_d7gem3 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag198_d7gem3 >= 4 ; flag198_d7gem3 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag199_d7gem2 >= -2 ; flag199_d7gem2 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag199_d7gem2 >= 3 ; flag199_d7gem2 -> 1 ;
+red 1 flag196_d7ge5 -1 flag197_d7ge6 2 ~flag200_d7eq5 >= 1 ; flag200_d7eq5 -> 0 ;
+red -1 flag196_d7ge5 1 flag197_d7ge6 1 flag200_d7eq5 >= 0 ; flag200_d7eq5 -> 1 ;
+red 1 flag198_d7gem3 -1 flag199_d7gem2 2 ~flag201_d7eqm3 >= 1 ; flag201_d7eqm3 -> 0 ;
+red -1 flag198_d7gem3 1 flag199_d7gem2 1 flag201_d7eqm3 >= 0 ; flag201_d7eqm3 -> 1 ;
+red 1 flag201_d7eqm3 1 flag200_d7eq5 1 ~flag202_q7eq5 >= 1 ; flag202_q7eq5 -> 0 ;
+red -1 flag201_d7eqm3 -1 flag200_d7eq5 2 flag202_q7eq5 >= 0 ; flag202_q7eq5 -> 1 ;
+p 448 936 + 1084 + s
+p 447 1022 + 1085 + 1097 + s
+u 1 flag202_q7eq5 1 ~iv5_eq_7 1 ~flag151_d5eq4 >= 1 ;
+p 448 940 + 1088 + s
+p 447 941 + 1087 + 1100 + 946 + s
+u 1 flag202_q7eq5 1 ~iv5_eq_7 1 ~flag153_q5eq4 >= 1 ;
+del range 1097 1102
+u 1 iv5_eq_4 1 iv5_eq_7 >= 1 ;
+p 1103 1082 + s 1102 + s 
+del id 1103
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag203_d5ge5 >= 5 ; flag203_d5ge5 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag203_d5ge5 >= -4 ; flag203_d5ge5 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag204_d5ge6 >= 6 ; flag204_d5ge6 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag204_d5ge6 >= -5 ; flag204_d5ge6 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag205_d5gem3 >= -3 ; flag205_d5gem3 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag205_d5gem3 >= 4 ; flag205_d5gem3 -> 1 ;
+red 1 poiv5_pos5_b_0 2 poiv5_pos5_b_1 4 poiv5_pos5_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag206_d5gem2 >= -2 ; flag206_d5gem2 -> 0 ;
+red -1 poiv5_pos5_b_0 -2 poiv5_pos5_b_1 -4 poiv5_pos5_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag206_d5gem2 >= 3 ; flag206_d5gem2 -> 1 ;
+red 1 flag203_d5ge5 -1 flag204_d5ge6 2 ~flag207_d5eq5 >= 1 ; flag207_d5eq5 -> 0 ;
+red -1 flag203_d5ge5 1 flag204_d5ge6 1 flag207_d5eq5 >= 0 ; flag207_d5eq5 -> 1 ;
+red 1 flag205_d5gem3 -1 flag206_d5gem2 2 ~flag208_d5eqm3 >= 1 ; flag208_d5eqm3 -> 0 ;
+red -1 flag205_d5gem3 1 flag206_d5gem2 1 flag208_d5eqm3 >= 0 ; flag208_d5eqm3 -> 1 ;
+red 1 flag208_d5eqm3 1 flag207_d5eq5 1 ~flag209_q5eq5 >= 1 ; flag209_q5eq5 -> 0 ;
+red -1 flag208_d5eqm3 -1 flag207_d5eq5 2 flag209_q5eq5 >= 0 ; flag209_q5eq5 -> 1 ;
+p 492 998 + 1106 + s
+p 491 1042 + 1107 + 1119 + s
+u 1 flag209_q5eq5 1 ~iv6_eq_5 1 ~flag172_d6eq4 >= 1 ;
+p 492 1002 + 1110 + s
+p 491 1003 + 1109 + 1122 + 1008 + s
+u 1 flag209_q5eq5 1 ~iv6_eq_5 1 ~flag174_q6eq4 >= 1 ;
+del range 1119 1124
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag210_d7ge5 >= 5 ; flag210_d7ge5 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag210_d7ge5 >= -4 ; flag210_d7ge5 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag211_d7ge6 >= 6 ; flag211_d7ge6 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag211_d7ge6 >= -5 ; flag211_d7ge6 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag212_d7gem3 >= -3 ; flag212_d7gem3 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag212_d7gem3 >= 4 ; flag212_d7gem3 -> 1 ;
+red 1 poiv7_pos7_b_0 2 poiv7_pos7_b_1 4 poiv7_pos7_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag213_d7gem2 >= -2 ; flag213_d7gem2 -> 0 ;
+red -1 poiv7_pos7_b_0 -2 poiv7_pos7_b_1 -4 poiv7_pos7_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag213_d7gem2 >= 3 ; flag213_d7gem2 -> 1 ;
+red 1 flag210_d7ge5 -1 flag211_d7ge6 2 ~flag214_d7eq5 >= 1 ; flag214_d7eq5 -> 0 ;
+red -1 flag210_d7ge5 1 flag211_d7ge6 1 flag214_d7eq5 >= 0 ; flag214_d7eq5 -> 1 ;
+red 1 flag212_d7gem3 -1 flag213_d7gem2 2 ~flag215_d7eqm3 >= 1 ; flag215_d7eqm3 -> 0 ;
+red -1 flag212_d7gem3 1 flag213_d7gem2 1 flag215_d7eqm3 >= 0 ; flag215_d7eqm3 -> 1 ;
+red 1 flag215_d7eqm3 1 flag214_d7eq5 1 ~flag216_q7eq5 >= 1 ; flag216_q7eq5 -> 0 ;
+red -1 flag215_d7eqm3 -1 flag214_d7eq5 2 flag216_q7eq5 >= 0 ; flag216_q7eq5 -> 1 ;
+p 498 998 + 1126 + s
+p 497 1042 + 1127 + 1139 + s
+u 1 flag216_q7eq5 1 ~iv6_eq_7 1 ~flag172_d6eq4 >= 1 ;
+p 498 1002 + 1130 + s
+p 497 1003 + 1129 + 1142 + 1008 + s
+u 1 flag216_q7eq5 1 ~iv6_eq_7 1 ~flag174_q6eq4 >= 1 ;
+del range 1139 1144
+u 1 iv6_eq_5 1 iv6_eq_7 >= 1 ;
+p 1145 1124 + s 1144 + s 
+del id 1145
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag217_d4ge5 >= 5 ; flag217_d4ge5 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag217_d4ge5 >= -4 ; flag217_d4ge5 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag218_d4ge6 >= 6 ; flag218_d4ge6 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag218_d4ge6 >= -5 ; flag218_d4ge6 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag219_d4gem3 >= -3 ; flag219_d4gem3 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag219_d4gem3 >= 4 ; flag219_d4gem3 -> 1 ;
+red 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag220_d4gem2 >= -2 ; flag220_d4gem2 -> 0 ;
+red -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag220_d4gem2 >= 3 ; flag220_d4gem2 -> 1 ;
+red 1 flag217_d4ge5 -1 flag218_d4ge6 2 ~flag221_d4eq5 >= 1 ; flag221_d4eq5 -> 0 ;
+red -1 flag217_d4ge5 1 flag218_d4ge6 1 flag221_d4eq5 >= 0 ; flag221_d4eq5 -> 1 ;
+red 1 flag219_d4gem3 -1 flag220_d4gem2 2 ~flag222_d4eqm3 >= 1 ; flag222_d4eqm3 -> 0 ;
+red -1 flag219_d4gem3 1 flag220_d4gem2 1 flag222_d4eqm3 >= 0 ; flag222_d4eqm3 -> 1 ;
+red 1 flag222_d4eqm3 1 flag221_d4eq5 1 ~flag223_q4eq5 >= 1 ; flag223_q4eq5 -> 0 ;
+red -1 flag222_d4eqm3 -1 flag221_d4eq5 2 flag223_q4eq5 >= 0 ; flag223_q4eq5 -> 1 ;
+p 531 956 + 1148 + s
+p 530 1126 + 1149 + 1161 + s
+u 1 flag223_q4eq5 1 ~iv7_eq_4 1 ~flag158_d7eq4 >= 1 ;
+p 531 960 + 1152 + s
+p 530 961 + 1151 + 1164 + 966 + s
+u 1 flag223_q4eq5 1 ~iv7_eq_4 1 ~flag160_q7eq4 >= 1 ;
+del range 1161 1166
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 12 ~flag224_d6ge5 >= 5 ; flag224_d6ge5 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 3 flag224_d6ge5 >= -4 ; flag224_d6ge5 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 13 ~flag225_d6ge6 >= 6 ; flag225_d6ge6 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 2 flag225_d6ge6 >= -5 ; flag225_d6ge6 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 4 ~flag226_d6gem3 >= -3 ; flag226_d6gem3 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 11 flag226_d6gem3 >= 4 ; flag226_d6gem3 -> 1 ;
+red 1 poiv6_pos6_b_0 2 poiv6_pos6_b_1 4 poiv6_pos6_b_2 -1 poiv4_pos4_b_0 -2 poiv4_pos4_b_1 -4 poiv4_pos4_b_2 5 ~flag227_d6gem2 >= -2 ; flag227_d6gem2 -> 0 ;
+red -1 poiv6_pos6_b_0 -2 poiv6_pos6_b_1 -4 poiv6_pos6_b_2 1 poiv4_pos4_b_0 2 poiv4_pos4_b_1 4 poiv4_pos4_b_2 10 flag227_d6gem2 >= 3 ; flag227_d6gem2 -> 1 ;
+red 1 flag224_d6ge5 -1 flag225_d6ge6 2 ~flag228_d6eq5 >= 1 ; flag228_d6eq5 -> 0 ;
+red -1 flag224_d6ge5 1 flag225_d6ge6 1 flag228_d6eq5 >= 0 ; flag228_d6eq5 -> 1 ;
+red 1 flag226_d6gem3 -1 flag227_d6gem2 2 ~flag229_d6eqm3 >= 1 ; flag229_d6eqm3 -> 0 ;
+red -1 flag226_d6gem3 1 flag227_d6gem2 1 flag229_d6eqm3 >= 0 ; flag229_d6eqm3 -> 1 ;
+red 1 flag229_d6eqm3 1 flag228_d6eq5 1 ~flag230_q6eq5 >= 1 ; flag230_q6eq5 -> 0 ;
+red -1 flag229_d6eqm3 -1 flag228_d6eq5 2 flag230_q6eq5 >= 0 ; flag230_q6eq5 -> 1 ;
+p 537 956 + 1168 + s
+p 536 1126 + 1169 + 1181 + s
+u 1 flag230_q6eq5 1 ~iv7_eq_6 1 ~flag158_d7eq4 >= 1 ;
+p 537 960 + 1172 + s
+p 536 961 + 1171 + 1184 + 966 + s
+u 1 flag230_q6eq5 1 ~iv7_eq_6 1 ~flag160_q7eq4 >= 1 ;
+del range 1181 1186
+u 1 iv7_eq_4 1 iv7_eq_6 >= 1 ;
+p 1187 1166 + s 1186 + s 
+del id 1187
+* LAYER
+p 1020 1062 + s 1104 + s 1146 + s 1188 + s 
+* backtracking
+u >= 1 ;
+del range 542 618
+del range 620 635
+del id 637
+del range 639 654
+del range 659 674
+del id 679
+del range 681 696
+del range 701 716
+del id 721
+del range 723 739
+del range 744 759
+del id 764
+del range 766 781
+del range 786 801
+del id 806
+del range 808 823
+del range 828 843
+del id 848
+del range 850 866
+del range 871 886
+del id 891
+del range 893 908
+del range 913 928
+del id 933
+del range 935 950
+del range 955 970
+del id 975
+del range 977 992
+del range 997 1012
+del id 1017
+del range 1019 1035
+del range 1040 1055
+del id 1060
+del range 1062 1077
+del range 1082 1097
+del id 1102
+del range 1104 1119
+del range 1124 1139
+del id 1144
+del range 1146 1161
+del range 1166 1181
+del id 1186
+del range 1188 1190
+* asserting contradiction
+u >= 1 ;
+output NONE
+conclusion UNSAT : 1191
+end pseudo-Boolean proof
